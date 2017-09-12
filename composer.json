@@ -1,0 +1,27 @@
+{
+    "name": "djf18811561577/frame",
+    "description": "PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "djf",
+            "email": "1269856714@qq.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.1",
+        "gregwar/captcha": "dev-master"
+
+    },
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\",
+            "system\\":"system\\"
+        }
+    }
+}
